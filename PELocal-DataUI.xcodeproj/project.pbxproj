@@ -12,7 +12,7 @@
 		1872E8B01C4B575E00697ECB /* PEAddViewEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E8AF1C4B575E00697ECB /* PEAddViewEditController.m */; };
 		1872E8B31C4B578A00697ECB /* PEListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E8B21C4B578A00697ECB /* PEListViewController.m */; };
 		1872E8B81C4B58DC00697ECB /* PELocalDataUILogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E8B71C4B58DC00697ECB /* PELocalDataUILogging.m */; };
-		1872E8BB1C4B59AA00697ECB /* PECustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E8BA1C4B59AA00697ECB /* PECustomController.m */; };
+		1872E8BB1C4B59AA00697ECB /* PELocalDataBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872E8BA1C4B59AA00697ECB /* PELocalDataBaseController.m */; };
 		D789D15293F91E260509CEC1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2034F9EE02DB6D53300B4189 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +41,8 @@
 		1872E8B21C4B578A00697ECB /* PEListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEListViewController.m; sourceTree = "<group>"; };
 		1872E8B61C4B58DC00697ECB /* PELocalDataUILogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PELocalDataUILogging.h; sourceTree = "<group>"; };
 		1872E8B71C4B58DC00697ECB /* PELocalDataUILogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PELocalDataUILogging.m; sourceTree = "<group>"; };
-		1872E8B91C4B59AA00697ECB /* PECustomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECustomController.h; sourceTree = "<group>"; };
-		1872E8BA1C4B59AA00697ECB /* PECustomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECustomController.m; sourceTree = "<group>"; };
+		1872E8B91C4B59AA00697ECB /* PELocalDataBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PELocalDataBaseController.h; sourceTree = "<group>"; };
+		1872E8BA1C4B59AA00697ECB /* PELocalDataBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PELocalDataBaseController.m; sourceTree = "<group>"; };
 		2034F9EE02DB6D53300B4189 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AA7F87C51AFB4F38912A61 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ECA763C230B9E465C40ACBE1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,18 +87,18 @@
 				1872E8A31C4B53F600697ECB /* Utils */,
 				1872E8A21C4B53E000697ECB /* CRUD controller */,
 				1872E8A11C4B53CD00697ECB /* List Controller */,
-				1872E8A01C4B53B500697ECB /* Custom Screen Base */,
+				1872E8A01C4B53B500697ECB /* Base Controller */,
 			);
 			path = "PELocal-DataUI";
 			sourceTree = "<group>";
 		};
-		1872E8A01C4B53B500697ECB /* Custom Screen Base */ = {
+		1872E8A01C4B53B500697ECB /* Base Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1872E8B91C4B59AA00697ECB /* PECustomController.h */,
-				1872E8BA1C4B59AA00697ECB /* PECustomController.m */,
+				1872E8B91C4B59AA00697ECB /* PELocalDataBaseController.h */,
+				1872E8BA1C4B59AA00697ECB /* PELocalDataBaseController.m */,
 			);
-			name = "Custom Screen Base";
+			name = "Base Controller";
 			sourceTree = "<group>";
 		};
 		1872E8A11C4B53CD00697ECB /* List Controller */ = {
@@ -273,7 +273,7 @@
 				1872E8B81C4B58DC00697ECB /* PELocalDataUILogging.m in Sources */,
 				1872E8AA1C4B551500697ECB /* UIScrollView+PEAdditions.m in Sources */,
 				1872E8B31C4B578A00697ECB /* PEListViewController.m in Sources */,
-				1872E8BB1C4B59AA00697ECB /* PECustomController.m in Sources */,
+				1872E8BB1C4B59AA00697ECB /* PELocalDataBaseController.m in Sources */,
 				1872E8AD1C4B552900697ECB /* PELMUIUtils.m in Sources */,
 				1872E8B01C4B575E00697ECB /* PEAddViewEditController.m in Sources */,
 			);

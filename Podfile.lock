@@ -54,7 +54,7 @@ PODS:
     - FMDB (~> 2.5)
     - PEHateoas-Client (~> 1.0.15)
     - PEObjc-Commons (~> 1.0.101)
-  - PEObjc-Commons (1.0.108):
+  - PEObjc-Commons (1.0.110):
     - BlocksKit (~> 2.2.5)
 
 DEPENDENCIES:
@@ -63,7 +63,7 @@ DEPENDENCIES:
   - FlatUIKit (= 1.6.2)
   - MBProgressHUD (= 0.9.1)
   - PELocal-Data (= 0.0.16)
-  - PEObjc-Commons (= 1.0.108)
+  - PEObjc-Commons (= 1.0.110)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -74,6 +74,6 @@ SPEC CHECKSUMS:
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   PEHateoas-Client: 6885138dfb01bfbe98299bf6c4c0373b8e62d75c
   PELocal-Data: 1f03f10c46939eb03bcb01ec68e4a1e522d86bd4
-  PEObjc-Commons: e200afbc387a5fbec2724f9f5844ed43843c95c5
+  PEObjc-Commons: 9cddc2ecadd3f79335d5f08905368f34de88c137
 
 COCOAPODS: 0.39.0
